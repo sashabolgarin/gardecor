@@ -28,6 +28,10 @@ body {
 	font-size: 16px;
 	min-width: 320px;
 	position: relative;
+	min-height: 100vh;
+	background-image: url(../img/home/gardecor_background_home.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .hidden {
 	display: none;
@@ -40,4 +44,45 @@ body {
 	background-attachment: fixed;
 	background-position: 50% 0;
 	position: relative;
+}
+
+header {
+	padding: 50px 0;
+}
+
+.logo {
+	display: inline-block;
+	height: 114px;
+	width: 245px;
+	background-image: url(../img/home/gardecor_logo_header.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.search_icon {
+	background-image: url(../img/home/menu_search_icon.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 20px;
+	height: 119px;
+	background-position: center;
+	
+}
+
+.main_menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.main_menu ul li {
+	float: left;
+	margin-left: 30px;
+}
+
+.main_menu ul li a {
+	text-transform: uppercase;
+	color: #0c385b;
+	font-size: 19px;
+	line-height: 119px;
 }
