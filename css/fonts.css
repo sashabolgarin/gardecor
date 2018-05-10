@@ -38,3 +38,14 @@
 	font-style: normal;
 	font-weight: normal;
 }
+
+@font-face {
+    font-family: "NeuronRegular";
+    src: url("../fonts/NeuronRegular/Neuron.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "NeuronBold";
+    src: url("../fonts/NeuronBold/Neuron-Bold.otf") format("opentype");
+	font-weight: bold;
+}
